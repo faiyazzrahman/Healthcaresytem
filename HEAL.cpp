@@ -80,12 +80,10 @@ hasDigit = true;
 return hasUpperCase && hasLowerCase && hasDigit;
 }
 int main() {
-cout<<"===================================================================
-====================================================="<<endl;
+cout<<"========================================================================================================================"<<endl;
 cout<<" Welcome to User Health System "<<endl<<endl<<endl;
 cout<<" please enter to continue..."<<endl<<endl<<endl;
-cout<<"===================================================================
-====================================================="<<endl;
+cout<<"========================================================================================================================"<<endl;
 cin.ignore();
 cout<<" For enjoying our services you have to register first "<<endl<<endl;
 cout<<" Sign up(press enter key)"<<endl<<endl<<endl;
@@ -99,8 +97,7 @@ cin >> username;
 if (isValidUsername(username)) {
 validUsername = true;
 }
-cout << "Please enter a password" <<endl<<"(8-20 characters with at least one uppercase letter,
-one lowercase letter, and one digit): ";
+cout << "Please enter a password" <<endl<<"(8-20 characters with at least one uppercase letter,one lowercase letter, and one digit): ";
 cin >> password;
 if (isValidPassword(password)) {
 validPassword = true;
@@ -112,10 +109,8 @@ cout << "Invalid password." << endl;
 }
 
 // Login
-bool isRegistered = false, isLoggedIn = false;
-cout << "\n\n << Login >>
-\n________________________________________________________________________________
-______________________________________\n";
+bool  isLoggedIn = false;
+cout << "\n\n << Login >>\n______________________________________________________________________________________________________________________\n";
 while (!isLoggedIn) {
 string enteredUsername, enteredPassword;
 cout << "Username: ";
